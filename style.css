@@ -1,3 +1,22 @@
 body{
-    background: red;
+    background: gray;
+}
+
+
+#titleName,#titleDescription{
+    background-color: blue;
+    text-align: center;
+    margin-bottom: 1em;
+    border: 1px solid black;
+}
+
+.body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content{
+    border: 1px solid black;
+    /* padding-right: 20%; */
+    text-align: center;
 }
